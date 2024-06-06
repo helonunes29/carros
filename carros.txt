@@ -1,0 +1,17 @@
+CREATE TABLE carros (
+    CODIGO INT PRIMARY KEY,
+    DISPONIVEL BOOLEAN,
+    KM FLOAT,
+    COR VARCHAR(50),
+    MODELO VARCHAR(100),
+    GASOLINA VARCHAR(20)
+);
+
+
+
+INSERT INTO carros (CODIGO, DISPONIVEL, KM, COR, MODELO, GASOLINA) VALUES
+(1, true, 10000.5, 'Azul', 'Fiat Palio', 'Gasolina'),
+(2, true, 8000.2, 'Prata', 'Volkswagen Gol', 'Flex'),
+(3, true, 6000.8, 'Vermelho', 'Ford Fiesta', 'Etanol'),
+(4, true, 12000.3, 'Preto', 'Chevrolet Onix', 'Gasolina'),
+(5, true, 9000.6, 'Branco', 'Renault Kwid', 'Flex');

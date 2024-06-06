@@ -1,0 +1,18 @@
+CREATE TABLE clientes (
+    CODIGO INT PRIMARY KEY,
+    NOME VARCHAR(100),
+    CPF INT,
+    TEL INT,
+    ENDERECO VARCHAR(255),
+    RG INT,
+    GMAIL VARCHAR(100)
+);
+
+
+INSERT INTO clientes (CODIGO, NOME, CPF, TEL, ENDERECO, RG, GMAIL) VALUES
+(1, 'Maria Silva', '123.456.789-10', '(11) 98765-4321', 'Rua das Flores, 123', '1234567', 'maria.silva@gmail.com'),
+(2, 'João Santos', '987.654.321-10', '(11) 99876-5432', 'Avenida dos Anjos, 456', '7654321', 'joao.santos@hotmail.com'),
+(3, 'Ana Oliveira', '456.789.123-10', '(11) 98765-6789', 'Travessa das Palmeiras, 789', '9876543', 'ana.oliveira@yahoo.com'),
+(4, 'Pedro Almeida', '654.321.987-10', '(11) 99999-9999', 'Praça das Estrelas, 1010', '5432198', 'pedro.almeida@gmail.com'),
+(5, 'Julia Costa', '321.654.987-10', '(11) 98765-5432', 'Rua dos Sonhos, 222', '9876543', 'julia.costa@gmail.com');
+

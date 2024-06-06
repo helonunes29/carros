@@ -1,0 +1,19 @@
+CREATE TABLE locacoes (
+    CODIGO INT PRIMARY KEY,
+    COD_CLIENTE INT,
+    COD_CARRO INT,
+    DIARIA DECIMAL(10, 2),
+    LOCAL VARCHAR(100),
+    DATA_RETIRADA DATE,
+    DATA_ENTREGA DATE
+);
+
+
+
+
+INSERT INTO locacoes (CODIGO, COD_CLIENTE, COD_CARRO, DIARIA, LOCAL, DATA_RETIRADA, DATA_ENTREGA) VALUES
+(1, 1, 2, 150.00, 'Aeroporto Internacional', '2024-04-10', '2024-04-15'),
+(2, 3, 4, 180.00, 'Centro da Cidade', '2024-04-12', '2024-04-16'),
+(3, 2, 1, 120.00, 'Estação de Trem', '2024-04-14', '2024-04-18'),
+(4, 4, 3, 160.00, 'Shopping Center', '2024-04-16', '2024-04-20'),
+(5, 5, 5, 200.00, 'Praia', '2024-04-18', '2024-04-23');
